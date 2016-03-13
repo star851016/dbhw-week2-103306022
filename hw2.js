@@ -11,7 +11,7 @@ function minus() {
       document.getElementById("num").innerHTML = curr - 1;
     }
   } else {
-    document.getElementById("num").innerHTML = 60;
+    document.getElementById("num").innerHTML = "60";
   }
 
   setTimeout(function() {
