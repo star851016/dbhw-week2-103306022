@@ -1,10 +1,28 @@
-<div class="timer-wrapper">
-  <span id="num">60</span>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-</div>
+<!doctype html>
+<html>
+  <title>Best Timer</title>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="hw2.css">
+   </head>
+   <body>
+     <div class="container">
+       <p>Best Timer</p>
+     </div>
+         <div class="timer-wrapper">
+             <span id="num">60</span>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+               </ul>
+
+        </div>
+      <script src="./hw2.js"></script>
+        <input id="time" type="text" class="textbox" placeholder="請輸入秒數">
+        <button id="button" class="button" onclick="reset()">reset</button>
+        <button id="button1" class="button1" onclick="change()">start</button>
+  </body>
+</html>
